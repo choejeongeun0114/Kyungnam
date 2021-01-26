@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    height: 50px;
+    background: #fff;
+}
+
+#header h1{
+    width: 73px;
+    margin: 0 auto;
+}
+#header h1 a{}
+#header h1 img{
+    width: 100%;
+    padding-top: 17px;
+}
+
+.LMenu{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    text-indent: -9999px;
+}
+.LMenu a{
+    display: block;
+    padding: 12px 0;
+}
+.LMenu a::before,.LMenu a span,.LMenu a::after{
+    content: "";
+    display: block;
+    width: 18px;
+    height:1px;
+    background: #003A56;
+    margin: 0 auto;
+}
+.LMenu a span{
+    margin: 5px auto;
+}
+
+
+.RMenu{
+    height: 17px;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+}
+.RMenu a{}
+.RMenu img{
+    height: 100%;
+}
+
+
+/*푸터*/
+#footer{
+    height: 120px;
+    background: #555a61;
+}
+
+.fLogo{
+    background: url(../images/fLogo.png) no-repeat center center;
+    text-indent: -9999px;
+    background-size: 70px;
+    padding: 10px 0;
+    
+}
+
+.fInfo{
+    font-size: 11px;
+    text-align: center;
+    color: #fefefe;
+    font-weight: 200;
+    
+}
+.fInfo span{margin-right: 10px;
+}
+#footer p{
+    text-align: center;
+    font-size: 11px;
+    color: #fefefe;
+    font-weight: 200;
+}

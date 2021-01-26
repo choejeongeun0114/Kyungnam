@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+
+.mainSlider{
+    height: 430px;
+    position: relative;
+}
+.mainSlider img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*mainCon01*/
+
+.mainCon01{
+    position: relative;
+}
+.mainCon01 h2{
+    font-size: 18px;
+    color: #003A56;
+    padding: 20px 0 10px 30px;
+}
+.mainCon01 h2::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background: #003A56;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+}
+
+.con01List{
+    position: relative;
+    margin-left:-50px;
+}
+.con01List li{
+    width: 187px;
+    float: left;
+}
+.con01List li a{
+    display: block;
+    margin-right: 10px;
+}
+/*.con01List li a:nth-child(2n){
+    margin-right: 0;
+}*/
+.con01List li img{
+    width: 100%;
+}
+
+/*슬라이더왼쪽버튼*/
+.slick-dots{
+    position: absolute;
+    left: 47%;
+    top: -40px;
+
+}
+
+.slick-dots li{
+    width:auto;
+    float: left;
+}
+.slick-dots li button{    
+    width:16px;
+    height:16px;
+    background:url(../images/blet_visual.png) no-repeat;
+    margin-right:5px;
+    font-size:0;
+    border:0;
+    outline: none;
+    
+}
+
+.slick-dots .slick-active button{background-position: 0 -16px;}
+
+/*mainCon02*/
+.mainCon02{
+    padding: 50px 0;
+}
+
+.mainCon02 dl{
+}
+
+.tabs li{
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 18px;
+    position: relative;
+    
+}
+.tabs .current{
+    font-weight:bold;
+}
+.tabs .current::after{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background: #2e0505;
+    position: absolute;
+    bottom: -19px;
+    left: 18px;
+    
+}
+.tabs::after{
+    content: "";
+    display: inline-block;
+    width: 340px;
+    height: 1px;
+    background: #acacac;
+    margin-left: 18px;
+}
+.tab-content li{
+    font-size: 13px;
+    clear: both;
+    padding-top: 10px;
+    padding-left: 18px;
+}
+.tab-content li a{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.tab-content li span{
+    font-size: 11px;
+    position: absolute;
+    right: 24px;
+    color: #8b8888;
+}
+
+.tab-content{
+  display: none;  
+  padding: 15px 0;
+}
+.tab-content.current{
+  display: inherit;
+}
+
+/*mainCon03*/
+
+.mainCon03{
+    height: 105px;
+    background: #003A56;
+    text-align: center;
+    font-size: 12px;
+    color: #fefefe;
+    position: relative;
+    font-weight: 200;
+}
+.mainCon03 p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #aaa379;
+    padding-top: 23px;
+}
+.mainCon03 h2{
+    font-size: 15px;
+}
+
+.LArrow{
+    position: absolute;
+    left: 40px;
+    top: 45px;
+}
+.LArrow a{
+    
+}
+.LArrow img{
+    width: 8px;
+}
+.RArrow{    
+    position: absolute;
+    right: 40px;
+    top: 45px;
+}
+.RArrow a{}
+.RArrow img{
+    width: 8px;
+}
+
+/*mainCon04*/
+.mainCon04{
+    height: 185px;
+}
+
+.con04List{
+    padding-top: 50px;
+    left:50%;
+    margin-left: -156px;
+    position: absolute;
+}
+
+.con04List li{
+    float: left;
+    margin-right: 20px;
+}
+.con04List li a{
+    display: block;
+}
+.con04List li img{
+    width: 58px;
+}
+.con04List li p{
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+/*mainCon05*/
+.mainCon05{}
+
+.con05Title{
+    text-align: center;
+}
+.con05Title h4{
+    font-size: 18px;
+    color: #003A56;
+}
+.con05Title p{
+    font-size: 12px;
+    color: #1c1c1c;
+    padding-bottom: 10px;
+}
+
+.media{}
+.media a{
+}
+.media img{
+    width: 334px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*mainCon06*/
+.mainCon06{
+    margin-top:50px;
+    border-top: 1px solid #acacac;
+}
+
+.snsList{}
+.snsList li{
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    float:left;
+    font-size:16px;
+    border-bottom: 1px solid #acacac;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.snsList li:nth-child(2n-1){
+    border-right: 1px solid #acacac;
+}
+.snsList li a{
+    display: block;
+}
+.snsList li img{
+    width: 30px;
+    vertical-align: middle;
+}
+.snsList li span{
+    vertical-align: middle;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
