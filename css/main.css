@@ -3,7 +3,6 @@
 /*메인슬라이더*/
 
 .mainSlider{
-    height: 430px;
     position: relative;
 }
 .mainSlider img{
